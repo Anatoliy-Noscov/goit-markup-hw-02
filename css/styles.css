@@ -151,6 +151,9 @@ color: #404bbf;
     color: #2e2f42;
     text-transform: capitalize 
 }
+.portfolio-list {
+    background-color: #ffffff;
+}
 
 .head-portfolio {
     font-weight: 500;
@@ -164,7 +167,8 @@ color: #404bbf;
    
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    font-size: 16px;
+    color: #434455;
 }
 
 

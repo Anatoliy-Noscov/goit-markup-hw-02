@@ -106,6 +106,9 @@ color: #404bbf;
 .ourteam-list {
     background-color: #FFFFFF 
 }
+.ourteam-item {
+    background-color: #fff;
+}
 
 .title-team {
     font-weight: 500;

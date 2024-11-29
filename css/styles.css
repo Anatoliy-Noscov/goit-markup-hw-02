@@ -11,16 +11,25 @@ body {
 .hero-title {
    font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #fff;
 }
 
 .button-hero {
     letter-spacing: 0.04em;
+    font-weight: 500;
     color: #fff;
+    line-height: 1.5;
   
     background: #4d5ae5;
+    cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+     background-color: #404BBF
 }
 
 ul, ol {
@@ -84,6 +93,34 @@ letter-spacing: 0.02em;
 color: #404bbf;
 }
 
+.ourteam-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.ourteam-list {
+    background-color: #FFFFFF 
+}
+
+.title-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.text-team {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .peculiarities-title {
     font-weight: 500;
@@ -105,6 +142,31 @@ color: #404bbf;
     background-color:  #f4f4fd;;
 
 }
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize 
+}
+
+.head-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-text {
+   
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
 
 .page-footer {
     background-color: #2e2f42;;
